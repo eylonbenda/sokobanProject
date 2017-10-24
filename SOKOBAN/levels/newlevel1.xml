@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_101" class="java.beans.XMLDecoder">
+ <object class="levels.Level" id="Level0">
+  <void property="levelmap">
+   <void method="add">
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="gameObject">
+        <object class="object_data.Wall"/>
+       </void>
+       <void property="position">
+        <object class="object_data.Position"/>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="gameObject">
+        <object class="object_data.Wall"/>
+       </void>
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="y">
+          <int>1</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="gameObject">
+        <object class="object_data.Wall"/>
+       </void>
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="y">
+          <int>2</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="gameObject">
+        <object class="object_data.Wall"/>
+       </void>
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="y">
+          <int>3</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="gameObject">
+        <object class="object_data.Wall"/>
+       </void>
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="y">
+          <int>4</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="gameObject">
+        <object class="object_data.Wall"/>
+       </void>
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="y">
+          <int>5</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="gameObject">
+        <object class="object_data.Wall"/>
+       </void>
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="y">
+          <int>6</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="gameObject">
+        <object class="object_data.Wall"/>
+       </void>
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>1</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.SquareTarget">
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>1</int>
+         </void>
+         <void property="y">
+          <int>1</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="gameObject">
+        <object class="object_data.Player"/>
+       </void>
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>1</int>
+         </void>
+         <void property="y">
+          <int>2</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>1</int>
+         </void>
+         <void property="y">
+          <int>3</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="gameObject">
+        <object class="object_data.Wall"/>
+       </void>
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>1</int>
+         </void>
+         <void property="y">
+          <int>4</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>1</int>
+         </void>
+         <void property="y">
+          <int>5</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="gameObject">
+        <object class="object_data.Wall"/>
+       </void>
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>1</int>
+         </void>
+         <void property="y">
+          <int>6</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="gameObject">
+        <object class="object_data.Wall"/>
+       </void>
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>2</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="gameObject">
+        <object class="object_data.Box"/>
+       </void>
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>2</int>
+         </void>
+         <void property="y">
+          <int>1</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.SquareTarget">
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>2</int>
+         </void>
+         <void property="y">
+          <int>2</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>2</int>
+         </void>
+         <void property="y">
+          <int>3</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="gameObject">
+        <object class="object_data.Box"/>
+       </void>
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>2</int>
+         </void>
+         <void property="y">
+          <int>4</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>2</int>
+         </void>
+         <void property="y">
+          <int>5</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="gameObject">
+        <object class="object_data.Wall"/>
+       </void>
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>2</int>
+         </void>
+         <void property="y">
+          <int>6</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="gameObject">
+        <object class="object_data.Wall"/>
+       </void>
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>3</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>3</int>
+         </void>
+         <void property="y">
+          <int>1</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="gameObject">
+        <object class="object_data.Box"/>
+       </void>
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>3</int>
+         </void>
+         <void property="y">
+          <int>2</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>3</int>
+         </void>
+         <void property="y">
+          <int>3</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="gameObject">
+        <object class="object_data.Box"/>
+       </void>
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>3</int>
+         </void>
+         <void property="y">
+          <int>4</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>3</int>
+         </void>
+         <void property="y">
+          <int>5</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="gameObject">
+        <object class="object_data.Wall"/>
+       </void>
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>3</int>
+         </void>
+         <void property="y">
+          <int>6</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="gameObject">
+        <object class="object_data.Wall"/>
+       </void>
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>4</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>4</int>
+         </void>
+         <void property="y">
+          <int>1</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.SquareTarget">
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>4</int>
+         </void>
+         <void property="y">
+          <int>2</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.SquareTarget">
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>4</int>
+         </void>
+         <void property="y">
+          <int>3</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>4</int>
+         </void>
+         <void property="y">
+          <int>4</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>4</int>
+         </void>
+         <void property="y">
+          <int>5</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="gameObject">
+        <object class="object_data.Wall"/>
+       </void>
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>4</int>
+         </void>
+         <void property="y">
+          <int>6</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="gameObject">
+        <object class="object_data.Wall"/>
+       </void>
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>5</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>5</int>
+         </void>
+         <void property="y">
+          <int>1</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>5</int>
+         </void>
+         <void property="y">
+          <int>2</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.SquareTarget">
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>5</int>
+         </void>
+         <void property="y">
+          <int>3</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="gameObject">
+        <object class="object_data.Box"/>
+       </void>
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>5</int>
+         </void>
+         <void property="y">
+          <int>4</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>5</int>
+         </void>
+         <void property="y">
+          <int>5</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="gameObject">
+        <object class="object_data.Wall"/>
+       </void>
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>5</int>
+         </void>
+         <void property="y">
+          <int>6</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="gameObject">
+        <object class="object_data.Wall"/>
+       </void>
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>6</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="gameObject">
+        <object class="object_data.Wall"/>
+       </void>
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>6</int>
+         </void>
+         <void property="y">
+          <int>1</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="gameObject">
+        <object class="object_data.Wall"/>
+       </void>
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>6</int>
+         </void>
+         <void property="y">
+          <int>2</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="gameObject">
+        <object class="object_data.Wall"/>
+       </void>
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>6</int>
+         </void>
+         <void property="y">
+          <int>3</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="gameObject">
+        <object class="object_data.Wall"/>
+       </void>
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>6</int>
+         </void>
+         <void property="y">
+          <int>4</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="gameObject">
+        <object class="object_data.Wall"/>
+       </void>
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>6</int>
+         </void>
+         <void property="y">
+          <int>5</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="object_data.Square">
+       <void property="gameObject">
+        <object class="object_data.Wall"/>
+       </void>
+       <void property="position">
+        <object class="object_data.Position">
+         <void property="x">
+          <int>6</int>
+         </void>
+         <void property="y">
+          <int>6</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>

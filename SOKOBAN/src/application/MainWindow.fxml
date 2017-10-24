@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.CheckMenuItem?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import application.SokobanDisplayer?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.Button?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainWindowController">
+   <left>
+      <VBox prefHeight="200.0" prefWidth="64.0" BorderPane.alignment="CENTER">
+      	<children>
+      	<Text strokeType="OUTSIDE" strokeWidth="0.0" text="Steps:">
+      	<font>
+      	<Font name="Tahoma" size="17.0"></Font>
+      	</font>
+    	 </Text>
+    	       	<Text fx:id="stepCount" fill="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+      	      	<font>
+      	<Font name="Tahoma" size="17.0"></Font>
+      	</font>
+      	</Text>
+      	<!-- timer -->
+      	<Text strokeType="OUTSIDE" strokeWidth="0.0" text="Timer:">
+      	<font>
+      	<Font name="Tahoma" size="17.0"></Font>
+      	</font>
+    	 </Text>
+    	       	<Text fx:id="timer" fill="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+      	      	<font>
+      	<Font name="Tahoma" size="17.0"></Font>
+      	</font>
+      	</Text>
+     	 </children>
+      </VBox>
+   </left>
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+                  <CheckMenuItem mnemonicParsing="false" onAction="#openFile" text="open" />
+                  <MenuItem mnemonicParsing="false" onAction="#saveFile" text="save" />
+              <MenuItem mnemonicParsing="false" onAction="#closeFile" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Records">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#showRecordTable"  text="Open" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#showSolution"  text="solve" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+
+   <center>
+      <SokobanDisplayer fx:id="sokoDisplayer" height="700.0" width="700.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
